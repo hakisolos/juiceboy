@@ -27,7 +27,7 @@ smd(
     filename: __filename, // Filename reference
   },
   async (message) => {
-    const imageUrl = "YOUR_IMAGE_LINK_HERE"; // Replace with your actual image link
+    const imageUrl = "https://imgur.com/a/JHoeGsG"; // Replace with your actual image link
 
     // Send initial message
     const { key } = await message.reply("*Checking if Queen Nikka is alive...*");
